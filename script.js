@@ -212,7 +212,7 @@ if (openFormBtn && formModal && formClose && playlistForm) {
 
 // Initial load and listeners, needed to add this because for some reason was getting errors in the console because my elements could not be found.
 document.addEventListener("DOMContentLoaded", () => {
-    fetch("../data/data.js")
+    fetch("./data/data.js")
         .then(res => res.json())
         .then(data => {
             playlists = data;

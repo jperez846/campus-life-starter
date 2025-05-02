@@ -1,8 +1,8 @@
 ## Unit Assignment: Music Playlist Explorer
 
-Submitted by: **NAME**
+Submitted by: **Jesus Perez**
 
-Estimated time spent: **#** hours spent in total
+Estimated time spent: **11** hours spent in total
 
 Deployed Application (**required**): [Music Playlist Explorer Deployed Site](ADD_LINK_HERE)
 
@@ -120,3 +120,4 @@ Deployed Application (**required**): [Music Playlist Explorer Deployed Site](ADD
 
 https://www.loom.com/share/9ece3154623b47b49a8ee00b82940f25?sid=eb41545c-6158-4671-92b2-37be9ec13f68
 
+site-unit2-project1-music-playlist-explorer-starter
