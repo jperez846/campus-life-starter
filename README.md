@@ -4,7 +4,7 @@ Submitted by: **Jesus Perez**
 
 Estimated time spent: **11** hours spent in total
 
-Deployed Application (**required**): [Music Playlist Explorer Deployed Site](ADD_LINK_HERE)
+Deployed Application (**required**): [Music Playlist Explorer Deployed Site](https://jperez846.github.io/campus-life-starter/index.html)
 
 ### Application Features
 
@@ -119,5 +119,3 @@ Deployed Application (**required**): [Music Playlist Explorer Deployed Site](ADD
 `TODO://` Add the embedded URL code to your animated app walkthrough below, My video: https://www.loom.com/share/9ece3154623b47b49a8ee00b82940f25?sid=eb41545c-6158-4671-92b2-37be9ec13f68. Make sure the video actually renders and is playable when viewing this README. Ensure your walkthrough showcases the presence and/or functionality of all features you implemented above (check them off as you film!). Pay attention to any **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS** checkboxes listed above to ensure graders see the full functionality of your website! (🚫 Remove this paragraph after adding walkthrough video)
 
 https://www.loom.com/share/9ece3154623b47b49a8ee00b82940f25?sid=eb41545c-6158-4671-92b2-37be9ec13f68
-
-site-unit2-project1-music-playlist-explorer-starter
