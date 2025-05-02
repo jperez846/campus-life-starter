@@ -17,7 +17,7 @@ Deployed Application (**required**): [Music Playlist Explorer Deployed Site](ADD
   - [x] Fetch data from a provided Javascript file and use it to create interactive playlist tiles.
 
 - [x] **Playlist Components**
-  - [ ] Each tile should display the playlist's:
+  - [x] Each tile should display the playlist's:
     - [x] Cover image
     - [x] Name
     - [x] Author
@@ -116,7 +116,7 @@ Deployed Application (**required**): [Music Playlist Explorer Deployed Site](ADD
 
 ### Walkthrough Video
 
-`TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video actually renders and is playable when viewing this README. Ensure your walkthrough showcases the presence and/or functionality of all features you implemented above (check them off as you film!). Pay attention to any **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS** checkboxes listed above to ensure graders see the full functionality of your website! (🚫 Remove this paragraph after adding walkthrough video)
+`TODO://` Add the embedded URL code to your animated app walkthrough below, `<div style="position: relative; padding-bottom: 64.5933014354067%; height: 0;"><iframe src="https://www.loom.com/embed/9ece3154623b47b49a8ee00b82940f25?sid=17b549fa-0628-4792-8fd1-2626872c24b8" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>`. Make sure the video actually renders and is playable when viewing this README. Ensure your walkthrough showcases the presence and/or functionality of all features you implemented above (check them off as you film!). Pay attention to any **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS** checkboxes listed above to ensure graders see the full functionality of your website! (🚫 Remove this paragraph after adding walkthrough video)
 
-`ADD_EMBEDDED_CODE_HERE`
+`<div style="position: relative; padding-bottom: 64.5933014354067%; height: 0;"><iframe src="https://www.loom.com/embed/9ece3154623b47b49a8ee00b82940f25?sid=17b549fa-0628-4792-8fd1-2626872c24b8" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>`
 
