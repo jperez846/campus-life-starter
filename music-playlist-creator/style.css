@@ -4,3 +4,334 @@ body {
     padding: 0;
     background-color: #f8f8f8;
 }
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    position:fixed;
+    bottom:0;
+    left:0;
+}
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .playlist-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 14px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.2s;
+  }
+
+  .playlist-card:hover {
+    transform: scale(1.02);
+  }
+
+  .playlist-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .artist-name {
+    margin: 12px 0;
+    font-weight: bold;
+  }
+  .artist-playlist {
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  .artist-likes {
+    margin: 5px 0;
+    font-weight: bold;
+  }
+
+  .like-btn {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  .liked {
+    color: red;
+  }
+
+  .unliked {
+    color: gray;
+  }
+
+  .playlist-modal {
+    display: none; 
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px 20px;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    margin: auto;
+    padding: 24px;
+    border-radius: 12px;
+    max-height: 60vh; /* Limit height */
+    overflow-y: auto; /* Scroll inner content */
+    max-width: 800px;
+    position: relative;
+  }
+  
+  .modal-content h2 {
+    margin-bottom: 8px;
+  }
+  
+  .modal-content .song-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .song-row img {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+  }
+  
+  .song-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .song-info span {
+    margin: 2px 0;
+  }
+  
+  .close {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .featured-playlist {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    padding: 2rem;
+  }
+  
+  .playlist-left {
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .playlist-cover {
+    width: 100%;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .playlist-right {
+    flex-grow: 1;
+  }
+  
+  .song-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .song-item {
+    margin-bottom: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.5rem;
+  }
+  .nav-button {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #1db954;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-button:hover {
+    background-color: #14833b;
+  }
+  .playlist-controls {
+    border: 2px dashed #ccc;
+    padding: 1rem;
+    margin: 1rem 0;
+    background: #f9f9f9;
+    border-radius: 10px;
+  }
+
+  .playlist-controls h2, .playlist-controls h3 {
+    margin-top: 0;
+  }
+
+  .song-input {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .song-input input {
+    flex: 1;
+    padding: 0.5rem;
+  }
+
+  #add-song-btn {
+    margin: 0.5rem 0;
+    background-color: #eee;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+
+  #add-playlist-form button[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  .playlist-actions {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .action-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-btn {
+    background-color: #5ec5ff;
+    color: white;
+  }
+  
+  .edit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .delete-btn {
+    background-color: #ff8e97;
+    color: white;
+  }
+  
+  .delete-btn:hover {
+    background-color: #a71d2a;
+  }
+  
+  .like-btn {
+    background-color: #f1f1f1;
+    color: #333;
+  }
+  
+  .like-btn.liked {
+    color: red;
+  }
+  
+  .like-btn.unliked {
+    color: gray;
+  }
+  
+  .like-btn:hover {
+    background-color: #e0e0e0;
+  }
+  .playlist-button-shuffle {
+    background-color: #1db954; /* Spotify green, consistent with theme */
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .playlist-button-shuffle:hover {
+    background-color: #14833b;
+    transform: scale(1.05); /* subtle zoom on hover */
+  }
+  
+  .playlist-button-shuffle:active {
+    transform: scale(0.98);
+  }
+  
+  .playlist-button-shuffle:focus {
+    outline: 2px solid #1db954;
+    outline-offset: 2px;
+  }
+  .search-sort-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1.5rem auto;
+    flex-wrap: wrap;
+  }
+  
+  #search-input, #sort-select {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  #search-input:focus, #sort-select:focus {
+    border-color: #1db954;
+    box-shadow: 0 0 5px rgba(30, 215, 96, 0.4);
+  }
+  #open-form-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    padding: 12px 24px;
+    background-color: #1db954; /* Spotify green */
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  #open-form-btn:hover {
+    background-color: #14833b;
+    transform: scale(1.05);
+  }

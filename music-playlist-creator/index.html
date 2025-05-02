@@ -11,17 +11,59 @@
 </head>
 <body>
     <header>
-        <!-- Your header content here -->
+        <!-- header content here -->
+         <h1>Music Playlist Explorer</h1>
     </header>
-
+    <a href="featured.html" class="nav-button">Go to Featured Playlist</a>
     <main> 
-        <!-- Your main content here -->
+        <!-- sort/search controls-->
+        <div class="search-sort-controls">
+            <input type="text" id="search-input" placeholder="Search playlists or authors..." />
+            <select id="sort-select">
+              <option value="">Sort by</option>
+              <option value="name">Name (A-Z)</option>
+              <option value="likes">Most Liked</option>
+            </select>
+          </div>
+        <section>
+            <button id="open-form-btn">+ Add Playlist</button>
+            <div id="formModal" class="playlist-modal modal">
+              <div class="modal-content">
+                <span class="close" id="formClose">&times;</span>
+                <h2 id="formTitle">Add Playlist</h2>
+                <form id="playlist-form">
+                  <input type="text" id="name" placeholder="Playlist Name" required>
+                  <input type="text" id="author" placeholder="Author" required>
+                  <input type="text" id="cover" placeholder="Image URL" required>
+                  <textarea id="songs" placeholder="Songs (title|artist|duration|cover  separated by : |)" required></textarea>
+                  <button type="submit">Save</button>
+                </form>
+              </div>
+            </div>
+          </section>
+        
+        <!-- playlist cards here -->
+        <section id="playlist-cards" class="grid-container"></section>
+
+
+            
+         </section>
+         <section>
+             <!-- Modal Structure -->
+             <div id="myModal" class="playlist-modal modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+            </div>
+          
+          </div>
+         </section>
     </main>
 
-    <footer>
-        <!-- Your footer content here -->
+    <footer className="footer">
+        <!-- footer content here -->
+        Copyright © 2025 Tech-Fellow Test Webpage. All rights reserved.
     </footer>
-    <script src="data/data.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

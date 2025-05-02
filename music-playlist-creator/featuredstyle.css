@@ -1,0 +1,65 @@
+/* Navigation button style */
+.nav-button {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #1db954;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-button:hover {
+    background-color: #14833b;
+  }
+  
+  /* Featured playlist layout */
+  .featured-playlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px;
+    gap: 40px;
+  }
+  
+  .playlist-left {
+    flex: 1;
+    max-width: 300px;
+  }
+  
+  .playlist-left img.playlist-cover {
+    width: 100%;
+    border-radius: 12px;
+  }
+  
+  .playlist-right {
+    flex: 2;
+  }
+  
+  .song-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .song-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    font-family: sans-serif;
+  }
+  
+  .duration {
+    float: right;
+    color: #666;
+  }
+  footer{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    position:fixed;
+    bottom:0;
+    left:0;
+}
+  
